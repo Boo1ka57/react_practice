@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #container {
+            padding: 50px;
+            background-color: #61dafb;
+            margin: 5%;
+        }
+
+        #container p {
+            font-size: 80px;
+            font-family: monospace;
+            color: #0080A8;
+            text-align: center;
+            }
+        }
+    </style>
+    <meta charset="utf-8">
+    <title>2</title>
+
+    <script src="https://unpkg.com/react@16.14.0/umd/react.development.js"></script>
+
+    <script src="https://unpkg.com/react-dom@16.14.0/umd/react-dom.development.js"></script>
+
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+
+</head>
+
+<body>
+<div id="container"></div>
+<script type="text/babel">
+    class HelloWorld extends React.Component {
+        render() {
+            return <p>Hello,{this.props.greenTarget}!</p>
+        }
+    };
+
+    class Buttonify extends React.Component{
+        render () {
+            return(
+                <div>
+                    <button type={this.props.behavior}>{this.props.children}</button>
+                </div>
+            )
+        }
+    };
+
+    ReactDOM.render(
+        <div>
+            <HelloWorld greenTarget="Sasha Bulkin"/>
+            <HelloWorld greenTarget="Peter Parker"/>
+            <HelloWorld greenTarget="Doctor Evil"/>
+            <HelloWorld greenTarget="l.o.h."/>
+            <HelloWorld greenTarget="_228_stat'ya"/>
+            <Buttonify behavior="button">ОТПРАВИТЬ ДАННЫЕ</Buttonify>
+        </div>,
+    document.querySelector("#container")
+    )
+    ;
+
+</script>
+
+</body>
+</html>

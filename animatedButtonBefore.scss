@@ -1,0 +1,59 @@
+//
+//
+
+C:\Users\Professional\Desktop\works\cosmos_layout0\cosmos_layout0\styles\home.module.scss
+
+Вот путь по которому можно вставить эту анимированную кнопку с псевдоэлементом ::before
+и увидеть, как она работает
+
+
+//&Earth {
+//  background: url('../public/bg/screen_2_big.jpg') center no-repeat no-repeat;
+//
+//  &Link {
+//    font-family: 'NeueMachina', sans-serif;
+//    font-size: 3.571rem;
+//    text-decoration: none;
+//    border: 0.143rem solid #c29bff;
+//    color: #c29bff;
+//    padding: 0.714rem 1.429rem;
+//    border-radius: 1.786rem;
+//    transition: all 1s;
+//    position: relative;
+//    overflow: hidden;
+//  }
+//
+//  &Link::before {
+//    content: "";
+//    position: absolute;
+//    top: -2px;
+//    left: -2px;
+//    border: 0.143rem solid #c29bff;
+//    border-radius: 1.786rem;
+//    width: 100%;
+//    height: 100%;
+//    background-color: #c29bff;
+//    transition: all 1s;
+//    z-index: -1;
+//    transform: translateX(-100%);
+//  }
+//
+//  &Link:hover::before {
+//    transform: translateX(0);
+//  }
+//
+//  &Link:hover {
+//    color: #fff;
+//    z-index: 1;
+//  }
+//
+//
+//}
+
+//а вот код tsx для index.tsx
+//<section className={cl(styles.section, styles.sectionEarth)}>
+//<div>
+//<a href={"/"} className={cl(styles.section, styles.sectionEarthLink)}>
+//                                                                     Hover me!</a>
+//</div>
+//</section>

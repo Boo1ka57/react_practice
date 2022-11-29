@@ -1,0 +1,117 @@
+//
+//
+
+C:\Users\Professional\Desktop\works\cosmos_layout0\cosmos_layout0\styles\home.module.scss
+Вот путь по которому можно вставить  этот код, чтобы увидеть анимированную карточку  с челиком на фоне.
+
+//&Earth {
+//  background: url('../public/bg/screen_2_big.jpg') center no-repeat no-repeat;
+//
+//  &ProfileCard {
+//    width: 300px;
+//    height: 400px;
+//    border-radius: 8px;
+//    box-shadow: 0 4px 8px rgb(255, 255, 255);
+//    display: grid;
+//    place-items: center;
+//    position: relative;
+//    background: url('https://sun9-80.userapi.com/impf/c636218/v636218243/41cab/KpvWIRgexF4.jpg?size=1280x853&quality=96&sign=52865a1973374f9987c1c33e20f07a57&type=album') no-repeat center center/cover;
+//    overflow: hidden;
+//    cursor: pointer;
+//    z-index: 1;
+//
+//    &Info {
+//      h2, p {
+//        color: #fff;
+//        opacity: 0;
+//        transition: all 0.6s;
+//        z-index: 1;
+//      }
+//    }
+//
+//    &Info:hover {
+//      h2, p {
+//        opacity: 1;
+//        z-index: auto;
+//      }
+//    }
+//
+//
+//    &Info::before {
+//      content: "";
+//      position: absolute;
+//      top: 0;
+//      left: 0;
+//      width: 100%;
+//      height: 100%;
+//      background: #764abc;
+//      transform: skew(30deg) translateX(100%);
+//      opacity: 0.3;
+//      z-index: -1;
+//      transition: all 0.6s ease;
+//    }
+//
+//    &Info::after {
+//      content: "";
+//      position: absolute;
+//      top: 0;
+//      left: 0;
+//      width: 100%;
+//      height: 100%;
+//      background: #764abc;
+//      transform: skew(-30deg) translateX(90%);
+//      opacity: 0.3;
+//      z-index: -1;
+//      transition: all 0.6s ease;
+//    }
+//
+//    &Info:hover::before {
+//      transform: skew(30deg) translateX(50%);
+//      z-index: -1;
+//    }
+//
+//    &Info:hover::after {
+//      transform: skew(-30deg) translateX(85%);
+//      z-index: -1;
+//    }
+//  }
+//
+//
+//  &ProfileCard::before {
+//    content: "";
+//    position: absolute;
+//    width: 100%;
+//    height: 100%;
+//    top: 0;
+//    left: 0;
+//    opacity: 0.3;
+//    background: #764abc;
+//    transition: all 0.6s ease;
+//    transform: skew(30deg) translateX(95%);
+//    z-index: -1;
+//  }
+//
+//  &ProfileCard::after {
+//    content: "";
+//    position: absolute;
+//    top: 0;
+//    left: 0;
+//    width: 100%;
+//    height: 100%;
+//    background: #764abc;
+//    transition: all 0.6s ease;
+//    transform: skew(-30deg) translateX(85%);
+//    opacity: 0.3;
+//    z-index: -1;
+//  }
+//
+//  &ProfileCard:hover::before {
+//    transform: skew(30deg) translateX(55%);
+//    z-index: -1;
+//  }
+//
+//  &ProfileCard:hover::after {
+//    transform: skew(-30deg) translateX(80%);
+//    z-index: -1;
+//  }
+//}
